@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-高清电影片库</title>
+  <meta name="description" content="高清电影片库搜索页，可按影片名称、地区、年份、题材和标签查找影片。">
+  <meta name="keywords" content="国产高清电影,高清电影片库,国产电影,热门影片,电影点播,精选影片,影片搜索">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="高清电影片库">
+      <span class="brand-icon">▶</span>
+      <span class="brand-text"><strong>高清电影片库</strong><em>热门影片在线点播</em></span>
+    </a>
+    <nav class="main-nav">
+      <a href="./index.html" class="nav-link">首页</a>
+      <a href="./categories.html" class="nav-link">分类</a>
+      <a href="./ranking.html" class="nav-link">热播榜</a>
+      <a href="./categories/suspense-crime.html" class="nav-link">悬疑犯罪</a><a href="./categories/romance-drama.html" class="nav-link">爱情剧情</a><a href="./categories/action-adventure.html" class="nav-link">动作冒险</a><a href="./categories/comedy-life.html" class="nav-link">喜剧生活</a><a href="./categories/horror-thriller.html" class="nav-link">恐怖惊悚</a>
+    </nav>
+    <form class="top-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-btn" type="button" aria-label="打开导航">☰</button>
+  </div>
+  <div class="mobile-panel">
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类</a>
+    <a href="./ranking.html">热播榜</a>
+    <form action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="page-main">
+  <section class="page-hero small-hero">
+    <div>
+      <span>搜索</span>
+      <h1>影片搜索</h1>
+      <p>输入片名、地区、年份、题材或标签，快速找到对应详情页。</p>
+    </div>
+  </section>
+  <section class="search-page-panel">
+    <form action="./search.html" method="get" class="wide-search search-wide">
+      <input type="search" name="q" id="searchInput" placeholder="搜索影片" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <div id="searchSummary" class="search-summary"></div>
+    <div id="searchResults" class="search-results"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>高清电影片库</strong>
+      <p>国产高清电影栏目提供多题材影片内容，页面按热度、更新和分类组织。</p>
+    </div>
+    <div class="footer-links"><a href="./categories/suspense-crime.html">悬疑犯罪</a><a href="./categories/romance-drama.html">爱情剧情</a><a href="./categories/action-adventure.html">动作冒险</a><a href="./categories/comedy-life.html">喜剧生活</a><a href="./categories/horror-thriller.html">恐怖惊悚</a><a href="./categories/sci-fi-fantasy.html">科幻奇幻</a><a href="./categories/history-war.html">历史战争</a><a href="./categories/animation-family.html">动画家庭</a><a href="./categories/youth-campus.html">青春校园</a><a href="./categories/global-featured.html">全球精选</a></div>
+  </div>
+</footer>
+<script src="./assets/js/app.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
